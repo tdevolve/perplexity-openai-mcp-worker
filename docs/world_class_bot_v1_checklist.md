@@ -139,5 +139,3 @@ Requires all checks to pass before deploying to production.
 V1 Launch Rule:
 
 The bot cannot be enabled in production for any practice until all boxes are checked and the corresponding CI jobs are configured as required checks on the protected branch.
-
-
