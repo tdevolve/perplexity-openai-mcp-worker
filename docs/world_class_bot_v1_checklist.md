@@ -63,6 +63,10 @@ CI accuracy job evaluates these and stays above agreed accuracy threshold (e.g.,
 4. Performance Metrics & SLOs
 Metrics instrumentation
 
+- [ ] While on Better Stack free plan, keep critical monitors at 3-minute intervals.
+- [ ] After 3rd sale, upgrade Better Stack to paid plan.
+- [ ] After upgrade, tighten critical monitors to 1-minute intervals.
+
 Each conversation logs: latency (TTFT & full), errors, tools used, and outcome flags (task success, escalation).
 
 SLOs defined
