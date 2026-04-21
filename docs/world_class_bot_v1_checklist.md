@@ -265,3 +265,9 @@ The bot cannot be enabled in production for any practice until all boxes are che
   - [ ] booking widgets / key CTAs
 - [ ] When a critical website or integration change is detected, update the bot knowledge/configuration the same day.
 - [ ] If a change threatens accuracy or booking reliability, switch the bot to a safe fallback mode until corrected.
+
+### Monitoring Implementation Checklist
+- [ ] Deploy /health to production and verify it returns 200 in Better Stack.
+- [ ] Deploy /monitor/widget-smoke to production and add Better Stack monitor.
+- [ ] Deploy /monitor/schedule-flow to production and add Better Stack monitor.
+- [ ] Deploy /monitor/pms-heartbeat to production and add Better Stack monitor.
